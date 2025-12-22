@@ -20,6 +20,7 @@ app.use(
       "http://localhost:5173",
       "https://scholership-c3ad1.firebaseapp.com",
       "https://scholership-c3ad1.web.app",
+      
       process.env.DOMAIN_URL,
 
       process.env.DOMAIN_URL,
