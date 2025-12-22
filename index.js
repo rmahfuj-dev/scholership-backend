@@ -316,7 +316,7 @@ app.get("/applications", verifyJWTToken, verifyModerator, async (req, res) => {
     ])
     .toArray();
 
-  // res.status(200).json(result);
+  res.status(200).json(result);
 });
 
 app.get("/applications/:id", verifyJWTToken, async (req, res) => {
